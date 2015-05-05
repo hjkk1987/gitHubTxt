@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:myTools="http://schemas.android.com/apk/res/com.example.haha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haha.MainActivity" >
+
+    <com.example.haha.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myTools:left="true" />
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="myTools">
+        <attr name="id" format="reference"></attr>
+        <attr name="tvcolor" format="color"></attr>
+        <attr name="left" format="boolean"></attr>
+        <attr name="right" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>
